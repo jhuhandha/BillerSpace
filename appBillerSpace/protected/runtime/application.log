@@ -1,0 +1,110 @@
+2013/12/07 09:20:21 [error] [exception.CException] exception 'CException' with message 'Property "LoginForm.usuario" is not defined.' in C:\wamp\www\BillerSpace\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\BillerSpace\yii\framework\web\helpers\CHtml.php(2529): CComponent->__get('usuario')
+#1 C:\wamp\www\BillerSpace\yii\framework\web\helpers\CHtml.php(2252): CHtml::resolveValue(Object(LoginForm), 'usuario')
+#2 C:\wamp\www\BillerSpace\yii\framework\web\helpers\CHtml.php(1434): CHtml::activeInputField('text', Object(LoginForm), 'usuario', Array)
+#3 C:\wamp\www\BillerSpace\yii\framework\web\widgets\CActiveForm.php(725): CHtml::activeTextField(Object(LoginForm), 'usuario', Array)
+#4 C:\wamp\www\BillerSpace\appBillerSpace\protected\views\login\login.php(12): CActiveForm->textField(Object(LoginForm), 'usuario', Array)
+#5 C:\wamp\www\BillerSpace\yii\framework\web\CBaseController.php(126): require('C:\wamp\www\Bil...')
+#6 C:\wamp\www\BillerSpace\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\Bil...', Array, true)
+#7 C:\wamp\www\BillerSpace\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\Bil...', Array, true)
+#8 C:\wamp\www\BillerSpace\yii\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#9 C:\wamp\www\BillerSpace\appBillerSpace\protected\controllers\LoginController.php(63): CController->render('login', Array)
+#10 C:\wamp\www\BillerSpace\yii\framework\web\actions\CInlineAction.php(49): LoginController->actionLogin()
+#11 C:\wamp\www\BillerSpace\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 C:\wamp\www\BillerSpace\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#13 C:\wamp\www\BillerSpace\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\wamp\www\BillerSpace\yii\framework\web\CWebApplication.php(282): CController->run('login')
+#15 C:\wamp\www\BillerSpace\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('login/login')
+#16 C:\wamp\www\BillerSpace\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#17 C:\wamp\www\BillerSpace\appBillerSpace\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/BillerSpace/appBillerSpace/index.php
+---
+2013/12/07 09:20:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/screen.css".' in C:\wamp\www\BillerSpace\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\BillerSpace\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/screen.css')
+#1 C:\wamp\www\BillerSpace\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\BillerSpace\appBillerSpace\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/BillerSpace/appBillerSpace/css/screen.css
+HTTP_REFERER=http://localhost:90/BillerSpace/appBillerSpace/index.php
+---
+2013/12/07 09:20:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/main.css".' in C:\wamp\www\BillerSpace\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\BillerSpace\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/main.css')
+#1 C:\wamp\www\BillerSpace\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\BillerSpace\appBillerSpace\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/BillerSpace/appBillerSpace/css/main.css
+HTTP_REFERER=http://localhost:90/BillerSpace/appBillerSpace/index.php
+---
+2013/12/07 09:20:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/print.css".' in C:\wamp\www\BillerSpace\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\BillerSpace\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/print.css')
+#1 C:\wamp\www\BillerSpace\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\BillerSpace\appBillerSpace\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/BillerSpace/appBillerSpace/css/print.css
+HTTP_REFERER=http://localhost:90/BillerSpace/appBillerSpace/index.php
+---
+2013/12/07 09:20:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/form.css".' in C:\wamp\www\BillerSpace\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\BillerSpace\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/form.css')
+#1 C:\wamp\www\BillerSpace\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\BillerSpace\appBillerSpace\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/BillerSpace/appBillerSpace/css/form.css
+HTTP_REFERER=http://localhost:90/BillerSpace/appBillerSpace/index.php
+---
+2013/12/07 09:28:21 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.end" is not defined.' in C:\wamp\www\BillerSpace\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\BillerSpace\yii\framework\base\CModule.php(105): CComponent->__get('end')
+#1 C:\wamp\www\BillerSpace\appBillerSpace\protected\controllers\LoginController.php(62): CModule->__get('end')
+#2 C:\wamp\www\BillerSpace\yii\framework\web\actions\CInlineAction.php(49): LoginController->actionLogin()
+#3 C:\wamp\www\BillerSpace\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\BillerSpace\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\BillerSpace\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\BillerSpace\yii\framework\web\CWebApplication.php(282): CController->run('login')
+#7 C:\wamp\www\BillerSpace\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('login/login')
+#8 C:\wamp\www\BillerSpace\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\wamp\www\BillerSpace\appBillerSpace\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/BillerSpace/appBillerSpace/login/login
+HTTP_REFERER=http://localhost:90/BillerSpace/appBillerSpace/login/login
+---
+2013/12/07 09:30:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "page/index".' in C:\wamp\www\BillerSpace\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\BillerSpace\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('page/index')
+#1 C:\wamp\www\BillerSpace\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\BillerSpace\appBillerSpace\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/BillerSpace/appBillerSpace/index.php/page/index
+HTTP_REFERER=http://localhost:90/BillerSpace/appBillerSpace/login/login
+---
+2013/12/07 09:30:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "page/index".' in C:\wamp\www\BillerSpace\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\BillerSpace\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('page/index')
+#1 C:\wamp\www\BillerSpace\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\BillerSpace\appBillerSpace\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/BillerSpace/appBillerSpace/index.php/page/index
+HTTP_REFERER=http://localhost:90/BillerSpace/appBillerSpace/login/login
+---
+2013/12/07 09:30:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "page/index".' in C:\wamp\www\BillerSpace\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\BillerSpace\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('page/index')
+#1 C:\wamp\www\BillerSpace\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\BillerSpace\appBillerSpace\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/BillerSpace/appBillerSpace/index.php/page/index
+---
+2013/12/07 10:14:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "page/index".' in C:\wamp\www\BillerSpace\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\BillerSpace\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('page/index')
+#1 C:\wamp\www\BillerSpace\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\BillerSpace\appBillerSpace\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/BillerSpace/appBillerSpace/index.php/page/index
+HTTP_REFERER=http://localhost:90/BillerSpace/appBillerSpace/
+---
