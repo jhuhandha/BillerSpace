@@ -99,3 +99,12 @@ Stack trace:
 #3 {main}
 REQUEST_URI=/BillerSpace/appBillerSpace/index.php/page/index
 ---
+2013/12/07 10:14:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "page/index".' in C:\wamp\www\BillerSpace\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\BillerSpace\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('page/index')
+#1 C:\wamp\www\BillerSpace\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\BillerSpace\appBillerSpace\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/BillerSpace/appBillerSpace/index.php/page/index
+HTTP_REFERER=http://localhost:90/BillerSpace/appBillerSpace/
+---
